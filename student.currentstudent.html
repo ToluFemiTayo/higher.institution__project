@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Higher Institution Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <!-- Bootstrap CSS -->
+  <link href="assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+  <!-- Font Awesome CSS -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+
+  <!-- Main CSS -->
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+
+  <link href="about.html" rel="stylesheet" type="text/html" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__csp">
+      <div class="branding">
+        <!-- navbar starts here -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <section class="navbar-nav mr-auto">
+            <a class="navbar-brand" href="index.html">
+              <figure class="logo m-0">
+                <img src="assets/img/logo2.PNG" alt="institution's logo" />
+              </figure>
+            </a>
+          </section>
+          <!-- search form here-->
+          <form role="search" class="search-form" action="http://www...">
+            <div class="search__box">
+              <input type="search" class="w-100 search__input" id="" placeholder="search for something" value="">
+              <span class="search__boxicon">
+                <i class="fas fa-search btn"></i>
+              </span>
+            </div>
+          </form>
+        </nav>
+        <!-- naavbar ends here -->
+      </div>
+    </div>
+    <div class="navbar navbar-expand-lg navbar-light">
+      <div class="navbar-nav mr-auto">
+        <h4>Welcome To Your Portal</h4>
+      </div>
+      <ul class="navbar-nav">
+        <li>
+          <div>
+            <h4>Name of Student</h4>
+            <p>
+              <span class="font-weight-bold">Programme:</span>Course of Study, Department</p>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            <button type="button" class="btn btn-outline-secondary">Log Out</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <!-- main menus here csp:current student portal-->
+    <section class="page__wrapper">
+      <section class="container sec__wrap">
+        <div class="border rounded Featured__stn">
+          <div class="row">
+            <!-- current student: sub-menus -->
+            <div class="col-3 ftd__bghd">
+              <div class="nav flex-column nav-pills text-left shadow-lg bg__color p-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <figure class="w-100 profile__photo">
+                  <img src="assets/img/freeimg/images (22).jpg" alt="" />
+                </figure>
+                <div class="text-center w-100 sub__menus">
+                  <h5>NAVIGATION</h5>
+                </div>
+                <br>
+                <a class="nav-link text-dark open__link active" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab"
+                  aria-controls="v-pills-dashboard" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Dashboard</a>
+                <a class="nav-link text-dark open__link" id="v-pills-complaints-tab" data-toggle="pill" href="#v-pills-complaints" role="tab"
+                  aria-controls="v-pills-complaints" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Complaints</a>
+                <a class="nav-link text-dark open__link" id="v-pills-appoinments-tab" data-toggle="pill" href="#v-pills-appoinments" role="tab"
+                  aria-controls="v-pills-appoinments" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Appoinments</a>
+                <a class="nav-link text-dark open__link" id="v-pills-accommodation-tab" data-toggle="pill" href="#v-pills-accommodation"
+                  role="tab" aria-controls="v-pills-accommodation" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Aaccommodation</a>
+                <a class="nav-link text-dark open__link" id="v-pills-uploaddocuments-tab" data-toggle="pill" href="#v-pills-uploaddocuments"
+                  role="tab" aria-controls="v-pills-uploaddocuments" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Upload Documents</a>
+                <a class="nav-link text-dark open__link" id="v-pills-updatebiodata-tab" data-toggle="pill" href="#v-pills-updatebiodata"
+                  role="tab" aria-controls="v-pills-updatebiodata" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Update Biodata</a>
+                <a class="nav-link text-dark open__link" id="v-pills-updatebiodata-tab" data-toggle="pill" href="#v-pills-updatebiodata"
+                  role="tab" aria-controls="v-pills-updatebiodata" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Update Biodata</a>
+                <a class="nav-link text-dark open__link" id="v-pills-medicalform-tab" data-toggle="pill" href="#v-pills-medicalform" role="tab"
+                  aria-controls="v-pills-medicalform" aria-selected="true">
+                  <i class="fas fa-bars"></i>
+                  Medical Form</a>
+                <a class="nav-link text-dark open__link" id="v-pills-printbiodata-tab" data-toggle="pill" href="#v-pills-printbiodata" role="tab"
+                  aria-controls="v-pills-printbiodata" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Print Biodata</a>
+                <a class="nav-link text-dark open__link" id="v-pills-registration-tab" data-toggle="pill" href="#v-pills-registration" role="tab"
+                  aria-controls="v-pills-registration" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Registarion</a>
+                <a class="nav-link text-dark open__link" id="v-pills-printregistration-tab" data-toggle="pill" href="#v-pills-printregistration"
+                  role="tab" aria-controls="v-pills-printregistration" aria-selected="true">
+                  <i class="fas fa-bars"></i>
+                  Print Registarion</a>
+                <a class="nav-link text-dark open__link" id="v-pills-defermentapplication-tab" data-toggle="pill" href="#v-pills-defermentapplication"
+                  role="tab" aria-controls="v-pills-defermentapplication" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Deferment Application</a>
+                <a class="nav-link text-dark open__link" id="v-pills-viewresults-tab" data-toggle="pill" href="#v-pills-viewresults" role="tab"
+                  aria-controls="v-pills-viewresults" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  View Results</a>
+                <a class="nav-link text-dark open__link" id="v-pills-viewacademicprofile-tab" data-toggle="pill" href="#v-pills-viewacademicprofile"
+                  role="tab" aria-controls="v-pills-viewacademicprofile" aria-selected="true">
+                  <i class="fas fa-bars"></i>
+                  View Academic Profile</a>
+                <a class="nav-link text-dark open__link" id="v-pills-changepassword-tab" data-toggle="pill" href="#v-pills-changepassword"
+                  role="tab" aria-controls="v-pills-changepassword" aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Change Password</a>
+                <a class="nav-link text-dark open__link" id="v-pills-logout-tab" data-toggle="pill" href="#v-pills-logout" role="tab" aria-controls="v-pills-logout"
+                  aria-selected="false">
+                  <i class="fas fa-bars"></i>
+                  Logout</a>
+              </div>
+            </div>
+
+            <!-- current student portal menus: display content -->
+            <div class="col-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">.
+                  <div class="container">
+                    <div>
+                      <p class="page__subtitle">
+                        <a href="index.html">Home</a> > Student > Current Student > Dashboard</p>
+                    </div>
+                    <div class="section__title">
+                      <h4>Dashboard</h4>
+                    </div>
+                    <div class="card__wrapper">
+                      <div class="section__title">
+                        <h5>Registration</h5>
+                      </div>
+                      <div class="row">
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-edit"></i>
+                                <h6 class="small__cardhd">Course Registration</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-file-alt"></i>
+                                <h6 class="small__cardhd">View Registration</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-print"></i>
+                                <h6 class="small__cardhd">Print Registration</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card__wrapper">
+                      <div class="section__title">
+                        <h5>Biodata</h5>
+                      </div>
+                      <div class="row">
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-user"></i>
+                                <h6 class="small__cardhd">Update Biodata</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-image"></i>
+                                <h6 class="small__cardhd">View Biodata</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card__wrapper">
+                      <div class="section__title">
+                        <h5>Results</h5>
+                      </div>
+                      <div class="row">
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-print"></i>
+                                <h6 class="small__cardhd">View Result</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-print"></i>
+                                <h6 class="small__cardhd">View Academic Profile</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card__wrapper">
+                      <div class="section__title">
+                        <h5>Payment</h5>
+                      </div>
+                      <div class="row">
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-bars"></i>
+                                <h6 class="small__cardhd">Generate/Regenerate Fees</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-file-alt"></i>
+                                <h6 class="small__cardhd">View Payment Advice</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-bars"></i>
+                                <h6 class="small__cardhd">Pay Online (Remita)</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-print"></i>
+                                <h6 class="small__cardhd">Print Reciept</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-sync-alt"></i>
+                                <h6 class="small__cardhd">Refresh Payment Status</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-file"></i>
+                                <h6 class="small__cardhd">Referral Application</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card__wrapper">
+                      <div class="section__title">
+                        <h5>Documents</h5>
+                      </div>
+                      <div class="row">
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-file"></i>
+                                <h6 class="small__cardhd">Fill Acceptance Form</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-file"></i>
+                                <h6 class="small__cardhd">Admission Letter</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col small__card">
+                          <div class="card text-center">
+                            <div class="card-body">
+                              <a href="#">
+                                <i class="fas fa-print"></i>
+                                <h6 class="small__cardhd">Academic Transcript (Student's Copy)</h6>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-complaints" role="tabpanel" aria-labelledby="v-pills-complaints-tab">
+                  <div class="container">
+                    <br>
+                    <div>
+                      <p class="page__subtitle">
+                        <a href="index.html">Home</a> > Student > Current Student > Complaints</p>
+                    </div>
+                    <div class="section__title">
+                      <h4>Complaints</h4>
+                    </div>
+                    <div class="row">
+                      <div class="col small__card">
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <a href="#">
+                              <i class="fas fa-file-alt"></i>
+                              <h6 class="small__cardhd">Submit Complaints</h6>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col small__card">
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <a href="#">
+                              <i class="fas fa-print"></i>
+                              <h6 class="small__cardhd">View All Complaints</h6>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-appoinments" role="tabpanel" aria-labelledby="v-pills-appoinments-tab">
+                  <div class="container">
+                    <br>
+                    <div>
+                      <p class="page__subtitle">
+                        <a href="index.html">Home</a> > Student > Current Student > Appoinments</p>
+                    </div>
+                    <div class="section__title">
+                      <h4>Appoinments</h4>
+                    </div>
+                    <div class="row">
+                      <div class="col small__card">
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <a href="#">
+                              <i class="fas fa-edit"></i>
+                              <h6 class="small__cardhd">New Appointment</h6>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col small__card">
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <a href="#">
+                              <i class="fas fa-file-alt"></i>
+                              <h6 class="small__cardhd">View Upcoming Appointment</h6>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col small__card">
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <a href="#">
+                              <i class="fas fa-print"></i>
+                              <h6 class="small__cardhd">View Past Appointment</h6>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-accommodation" role="tabpanel" aria-labelledby="v-pills-accommodation-tab">
+                  <div class="container">
+                    <br>
+                    <div>
+                      <p class="page__subtitle">
+                        <a href="index.html">Home</a> > Student > Current Student > Accommodation</p>
+                    </div>
+                    <div class="section__title">
+                      <h4>Accommodation</h4>
+                    </div>
+                    ..mollitia aut dolor libero atque quos quaerat officiisdolor sit amet consectetur adipisicing elit. Ducimus nesciunt similique
+                    quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere
+                    perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis iure
+                    delectus voluptatibus dolorum eveniet, explicabo veritatis voluptatem eum, optio voluptas. Lorem ipsum
+                    dolor sit amet consectetur, adipisicing elit. Ad unde perspiciatis debitis, a aperiam modi dolore eius
+                    mollitia aut dolor.
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-uploaddocuments" role="tabpanel" aria-labelledby="v-pills-uploaddocuments-tab">
+                  <div class="container">
+                    <br>
+                    <div>
+                      <p class="page__subtitle">
+                        <a href="index.html">Home</a> > Student > Current Student > Upload Documents</p>
+                    </div>
+                    <div class="section__title">
+                      <h4>Upload Documents</h4>
+                    </div>
+                    ..mollitia aut dolor libero atque quos quaerat officiisdolor sit amet consectetur adipisicing elit. Ducimus nesciunt similique
+                    quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere
+                    perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis iure
+                    delectus voluptatibus dolorum eveniet, explicabo veritatis voluptatem eum, optio voluptas. Lorem ipsum
+                    dolor sit amet consectetur, adipisicing elit. Ad unde perspiciatis debitis, a aperiam modi dolore eius
+                    mollitia aut dolor.
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-viewbiodata" role="tabpanel" aria-labelledby="v-pills-viewbiodata-tab">
+                  <div class="container">
+                    <br>
+                    <div>
+                      <p class="page__subtitle">
+                        <a href="index.html">Home</a> > Student > Current Student > View Biodata</p>
+                    </div>
+                    <div class="section__title">
+                      <h4>View Biodata</h4>
+                    </div>
+                    ..mollitia aut dolor libero atque quos quaerat officiisdolor sit amet consectetur adipisicing elit. Ducimus nesciunt similique
+                    quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere
+                    perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis iure
+                    delectus voluptatibus dolorum eveniet, explicabo veritatis voluptatem eum, optio voluptas. Lorem ipsum
+                    dolor sit amet consectetur, adipisicing elit. Ad unde perspiciatis debitis, a aperiam modi dolore eius
+                    mollitia aut dolor.
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-updatebiodata" role="tabpanel" aria-labelledby="v-pills-updatebiodata-tab">
+                  <div class="container">
+                    <br>
+                    <div>
+                      <p class="page__subtitle">
+                        <a href="index.html">Home</a> > Student > Current Student > Upload Biodata</p>
+                    </div>
+                    <div class="section__title">
+                      <h4>Upload Biodata</h4>
+                    </div>
+                    <p class="text-justify">
+                      ..dolor sit amet consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi, exercitationem harum adipisci
+                      temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti distinctio ea architecto
+                      unde necessitatibus.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus
+                      illo ea non eius! Quidem, eos. Sit nobis iure
+                      <br>
+                      <br>delectus voluptatibus dolorum eveniet, explicabo veritatis voluptatem eum, optio voluptas. Lorem ipsum
+                      dolor sit amet consectetur, adipisicing elit. Ad unde perspiciatis debitis, a aperiam modi dolore eius
+                      mollitia aut dolor libero atque quos quaerat officiisdolor sit amet consectetur adipisicing elit. Ducimus
+                      nesciunt similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum
+                      accusantium facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem
+                      ipsum dolor sit amet consectetur, adipisicing elit.
+                      <br>
+                      <br>Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis iure delectus voluptatibus dolorum
+                      eveniet, explicabo veritatis voluptatem eum, optio voluptas. Lorem ipsum dolor sit amet consectetur,
+                      adipisicing elit. Ad unde perspiciatis debitis, a aperiam modi dolore
+                      <br>
+                      <br> mollitia aut dolor libero atque quos quaerat officiisdolor sit amet consectetur adipisicing elit.
+                      Ducimus nesciunt similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur,
+                      laborum accusantium facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus..
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius!
+                      Quidem, eos. Sit nobis iure delectus voluptatibus dolorum eveniet, explicabo veritatis voluptatem eum,
+                      optio voluptas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde perspiciatis debitis,
+                      a aperiam modi dolore eius mollitia aut dolor libero atque quos quaerat officiis.</p>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-medicalform" role="tabpanel" aria-labelledby="v-pills-medicalform-tab">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam reiciendis inventore quae nam fuga quis
+                  nulla, error iure temporibus, quasi minus praesentium eligendi, asperiores unde eaque quos nemo ipsum harum...mollitia
+                  aut dolor libero atque quos quaerat officiisdolor sit amet consectetur adipisicing elit. Ducimus nesciunt
+                  similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum accusantium
+                  facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit
+                  amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis
+                  iure delectus voluptatibus dolorum eveniet, explicabo veritatis voluptatem eum, optio voluptas. Lorem ipsum
+                  dolor sit amet consectetur, adipisicing elit. Ad unde perspiciatis debitis, a aperiam modi dolore eius
+                  mollitia aut dolor.</div>
+                <div class="tab-pane fade" id="v-pills-printbiodata" role="tabpanel" aria-labelledby="v-pills-printbiodata-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi,
+                  exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti
+                  distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis iure delectus voluptatibus dolorum
+                  eveniet, explicabo veritatis voluptatem eum, optio voluptas. Lorem ipsum dolor sit amet consectetur, adipisicing
+                  elit. Ad unde perspiciatis debitis, a aperiam modi dolore eius mollitia aut dolor libero atque quos quaerat
+                  officiis nostrum quis odit facilis ipsa...</div>
+                <div class="tab-pane fade" id="v-pills-registration" role="tabpanel" aria-labelledby="v-pills-registration-tab">...sit amet consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi, exercitationem
+                  harum adipisci temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti distinctio
+                  ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti,
+                  repellendus illo ea non eius! Quidem, eos. Sit nobis iuresit amet consectetur adipisicing elit. Ducimus
+                  nesciunt similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum
+                  accusantium facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum
+                  dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos.
+                  Sit nobis iuresit amet consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi,
+                  exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti
+                  distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis iuresit amet consectetur adipisicing
+                  elit. Ducimus nesciunt similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur,
+                  laborum accusantium facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem
+                  ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem,
+                  eos. Sit nobis iure</div>
+                <div class="tab-pane fade" id="v-pills-printregistration" role="tabpanel" aria-labelledby="v-pills-printregistration-tab">.iure delectus voluptatibus dolorum eveniet,sit ametiure delectus voluptatibus dolorum eveniet,sit ametiure
+                  delectus voluptatibus dolorum eveniet,sit ametiure delectus voluptatibus dolorum eveniet,sit ametiure delectus
+                  voluptatibus dolorum eveniet,sit ametiure delectus voluptatibus dolorum eveniet,sit amet..</div>
+                <div class="tab-pane fade" id="v-pills-defermentapplication" role="tabpanel" aria-labelledby="v-pills-defermentappilcation-tab">..sit amet consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi, exercitationem
+                  harum adipisci temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti distinctio
+                  ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti,
+                  repellendus illo ea non eius! Quidem, eos. Sit nobis iure delectus voluptatibus dolorum eveniet,sit amet
+                  consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi, exercitationem harum adipisci
+                  temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti distinctio ea voluptatibus
+                  dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi,
+                  exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti
+                  distinctio ea architecto undevoluptatibus dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus
+                  nesciunt similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum
+                  accusantium facere perspiciatis ipsam deleniti distinctio ea architecto undearchitecto unde necessitatibus..
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius!
+                  Quidem, eos. Sit nobis iure delectus voluptatibus dolorum eveniet,sit amet consectetur adipisicing elit.
+                  Ducimus nesciunt similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur,
+                  laborum accusantium facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem
+                  ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem,
+                  eos. Sit nobis iure delectus voluptatibus dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus
+                  nesciunt similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum
+                  accusantium facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum
+                  dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos.
+                  Sit nobis iure delectus voluptatibus dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus nesciunt
+                  similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum accusantium
+                  facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit
+                  amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis
+                  iure delectus voluptatibus dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus nesciunt similique
+                  quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere
+                  perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet consectetur,
+                  adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis iure delectus voluptatibus
+                  dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi,
+                  exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti
+                  distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis iure delectus voluptatibus dolorum
+                  eveniet,sit amet consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi, exercitationem
+                  harum adipisci temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti distinctio
+                  ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti,
+                  repellendus illo ea non eius! Quidem, eos. Sit nobis iure delectus voluptatibus dolorum eveniet,.</div>
+                <div class="tab-pane fade" id="v-pills-viewresults" role="tabpanel" aria-labelledby="v-pills-viewresults-tab">..perspiciatis ipsam deleniti distinctio ea architecto undearchitecto unde necessitatibus.. Lorem ipsum dolor
+                  sit amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis
+                  iure delectus voluptatibus dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus nesciunt similique
+                  quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere
+                  perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum dolor sit amet consectetur,
+                  adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos. Sit nobis iure delectus voluptatibus
+                  dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi,
+                  exercitationem harum adipisci temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti
+                  distinctio ea architecto unde necessitatibus.. Lorem ipsumperspiciatis ipsam deleniti distinctio ea architecto
+                  undearchitecto unde necessitatibus.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti,
+                  repellendus illo ea non eius! Quidem, eos. Sit nobis iure delectus voluptatibus dolorum eveniet,sit amet
+                  consectetur adipisicing elit. Ducimus nesciunt similique quis doloremque sequi, exercitationem harum adipisci
+                  temporibus aspernatur, laborum accusantium facere perspiciatis ipsam deleniti distinctio ea architecto
+                  unde necessitatibus.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus
+                  illo ea non eius! Quidem, eos. Sit nobis iure delectus voluptatibus dolorum eveniet,sit amet consectetur
+                  adipisicing elit. Ducimus nesciunt similique quis doloremque sequi, exercitationem harum adipisci temporibus
+                  aspernatur, laborum accusantium facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus..
+                  Lorem ipsumperspiciatis ipsam deleniti distinctio ea architecto undearchitecto unde necessitatibus.. Lorem
+                  ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem,
+                  eos. Sit nobis iure delectus voluptatibus dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus
+                  nesciunt similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum
+                  accusantium facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum
+                  dolor sit amet consectetur, adipisicing elit. Odit corrupti, repellendus illo ea non eius! Quidem, eos.
+                  Sit nobis iure delectus voluptatibus dolorum eveniet,sit amet consectetur adipisicing elit. Ducimus nesciunt
+                  similique quis doloremque sequi, exercitationem harum adipisci temporibus aspernatur, laborum accusantium
+                  facere perspiciatis ipsam deleniti distinctio ea architecto unde necessitatibus.. Lorem ipsum.</div>
+                <div class="tab-pane fade" id="v-pills-viewacademicprofile" role="tabpanel" aria-labelledby="v-pills-viewacademicprofile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde tempore dicta mollitia eos aut, ullam
+                  perferendis est porro modi voluptatibus consequuntur nulla veritatis illum maxime blanditiis iure accusamus
+                  nihil! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est libero aliquam sapiente dolor, ducimus
+                  vero quod harum aut id ad, ab consectetur accusantium maiores minus asperiores, odit consequuntur! Accusantium,
+                  impedit?
+                </div>
+                <div class="tab-pane fade" id="v-pills-changepassword" role="tabpanel" aria-labelledby="v-pills-changepassword-tab">.adipisicing elit. Adipisci unde temporeadipisicing elit. Adipisci unde temporeadipisicing elit. Adipisci
+                  unde tempore..
+                </div>
+                <div class="tab-pane fade" id="v-pills-logout" role="tabpanel" aria-labelledby="v-pills-logout-tab">...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <section class="footer__2">
+      <div class="row w-100">
+        <div class="col">
+          <div class="footer__heading">
+            <h5>QUICK LINKS</h5>
+          </div>
+          <ul class="list__display">
+            <li>
+              <a href="#" class="text-light">Transcript and Record office</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">HIP Payment Portal</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">Vacancies</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">Campus Life</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">Downloads</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">Prospective Postgraduate Students</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">Prospective Undergraduate Students</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">Library</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="footer__heading">
+            <h5>QUICK LINKS</h5>
+          </div>
+          <ul class="list__display">
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Terms and Conditions</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Site Map</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Contact Us</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Privacy Statements</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="footer__heading">
+            <h5>QUICK LINKS</h5>
+          </div>
+          <ul class="list__display">
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                E-Resources</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Academic Calendar</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Staff Mail</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Privacy Statements</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Alumni</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="footer__heading">
+            <h5>QUICK LINKS</h5>
+          </div>
+          <ul class="list__display">
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Academic Calendar</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                E-learning</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Staff Mail</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Privacy Statements</a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+                <i class="fas fa-angle-right footer__fontawsm"></i>
+                Alumni</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar navbar-expand-lg navbar-light">
+        <ul class="navbar-nav mr-auto">
+          <li class="p-2">
+            <a href="#" class="text-light">Terms and Conditions</a>
+          </li>
+          <li class="p-2">
+            <a href="#" class="text-light">Site Map</a>
+          </li>
+          <li class="p-2">
+            <a href="#" class="text-light">Contact Us</a>
+          </li>
+          <li class="p-2">
+            <a href="#" class="text-light">Privacy Statements</a>
+          </li>
+          <li class="p-2">
+            <a href="#" class="text-light">FAQ</a>
+          </li>
+        </ul>
+        <div>
+          <div class="footer__heading">
+            <h5>Social Networks</h5>
+          </div>
+          <ul class="navbar-nav">
+            <li>
+              <a href="#" class="nav-link">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">
+                <i class="fab fa-google"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__3 text-center text-white">
+        Copyright 2019 Higher Institution Project | All Rights Reserved | Powered by
+        <a href="#">Centre for Information Technology and Systems</a>
+      </div>
+    </section>
+  </footer>
+  <script src="assets/plugins/jquery.min.js"></script>
+  <script src="assets/plugins/popper.min.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
